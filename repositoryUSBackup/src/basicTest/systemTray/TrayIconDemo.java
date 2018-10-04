@@ -109,37 +109,15 @@ public class TrayIconDemo
 
       trayIcon.addMouseListener (  new MouseListener()
       {
-         
-         public void mouseReleased ( MouseEvent e )
-         {
-            // TODO Auto-generated method stub
-            
-         }
-         
-         public void mousePressed ( MouseEvent e )
-         {
-            // TODO Auto-generated method stub
-            
-         }
-         
-         public void mouseExited ( MouseEvent e )
-         {
-            // TODO Auto-generated method stub
-            
-         }
-         
-         public void mouseEntered ( MouseEvent e )
-         {
-            // TODO Auto-generated method stub
-            
-         }
-         
+         public void mouseReleased ( MouseEvent e ) {}
+         public void mousePressed ( MouseEvent e )  {}
+         public void mouseExited ( MouseEvent e ) {}
+         public void mouseEntered ( MouseEvent e ) {}
          public void mouseClicked ( MouseEvent e )
          {
             if ( e.getButton () == MouseEvent.BUTTON1) // Linker Maus-Button
                JOptionPane.showMessageDialog ( null, "This dialog box is run from System Tray" );
          }
-     
       } );
 
       aboutItem.addActionListener ( new ActionListener ()
