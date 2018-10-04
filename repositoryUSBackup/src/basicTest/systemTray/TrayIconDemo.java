@@ -146,7 +146,7 @@ public class TrayIconDemo
       {
          public void actionPerformed ( ActionEvent e )
          {
-            JOptionPane.showMessageDialog ( null, "This dialog box is run from the About menu item" );
+            JOptionPane.showMessageDialog ( null, "This dialog box is run from the About menu item", "USBackup", JOptionPane.INFORMATION_MESSAGE );
          }
       } );
 
